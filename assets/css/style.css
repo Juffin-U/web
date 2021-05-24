@@ -1,0 +1,375 @@
+
+body {
+    display: block;
+    background: sienna;
+    margin: 0px;
+}
+
+header{
+    vertical-align: top;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: fixed;
+    background-color: #6b330a; 
+    top: 0;
+}
+
+a{
+    text-decoration: none;
+    color: SaddleBrown;
+}
+ 
+ .top_button_1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: burlywood;
+    border: burlywood;
+    width: 10%; /* Ширина кнопки */
+    height: 100%; /* Высота */
+    border-radius: 100%;
+    
+   }
+.f_search{
+    width: 30%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.search{
+    
+    font-style: italic;
+    font-size: large; 
+    width: 97%;
+    height: 40px;
+}
+.button_cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed; 
+    width: 100%;
+    height: 60px;
+    
+}
+
+.top_button_text{
+    
+    margin: 0;
+}
+
+.Info_cont{
+    margin-top: 100px;
+    background: #dea574;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.Info_cont_text{
+    max-width: 45%;
+    display: flex;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    justify-content: space-around;
+    font-size: 35px;
+    border: 25%;
+    text-align: center;
+    vertical-align: middle;
+    font-style: italic;
+    
+}
+
+.Prod_cont{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    height: 375px;
+}
+
+.Prod_info{
+    background: #c58d5d; 
+    width: 25%;
+    height: 375px;
+
+}
+
+.Prod_info_1{
+    background: #dea574; 
+    width: 25%;
+    height: 375px;
+
+}
+.Prod_exmp_cont{
+    background: #c58d5d;
+    width: 75%;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.Prod_exmp_cont_2{
+    background: #dea574;
+    width: 75%;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.Prod_exmp_cont_text{
+    height: 55px;
+    width: 100%;
+}
+.Prod_exmp_text{
+    margin-top: 2%;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: x-large;
+    font-style: italic;
+}
+.Prod_exmp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -8%;
+    width: 100%;
+    height: 325px;
+}
+
+.Prod_exmp_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -8%;
+    width: 100%;
+    height: 325px;
+}
+
+.Prod_Img{
+    height: 90%;
+    width: 100%;
+
+}
+.Prod_exmp_Img{
+    height: 50%;
+    width: 20%;
+}
+.Prod_info_text{
+     display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.Feedback_cont{
+    margin-top: 50px;
+    max-width: 45%;
+    display: flex;
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    justify-content: space-around;
+    font-size: 35px;
+    border: 25%;
+    text-align: center;
+    vertical-align: middle;
+}
+.Feedback_cont_text{
+    margin-top: 100px;
+    max-width: 45%;
+    display: flex;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    justify-content: space-around;
+    font-size: 35px;
+    border: 25%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.Prod_Reep{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.Prod_cont_p{
+    min-height: 800px;
+    background: sienna;
+    width: 97%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.Prod_info_p{
+    display: flex;
+    flex-direction: row;
+    height: 375px;
+    width: 100%;
+}
+.Prod_image{
+    flex-grow: 1;
+    height: 100%;
+    width: 25%;
+}
+.Prod_text{
+    
+    background: #d47f4ef2;
+    flex-grow: 4;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    flex-direction: column;
+    font-size: x-large;
+    font-style: italic;
+}
+.Prod_Img_p{
+    height: 100%;
+    width: 100%;
+
+}
+.Prod_p{
+    margin-left: 2%;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-end: 0px;
+   
+    
+}
+.Pord_exmp_cont{
+    margin-top: 2%;
+    width: 100%;
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+    background: #d47f4ef2;
+    
+}
+
+.Segment{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.Left_cont_p{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Image_cont_p{
+    height: 80%;
+    width: 100%;
+}
+
+.Buy_cont{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.Name_Image_cont_p{
+    height: 100%;
+    width: 72%;
+
+}
+
+.Button_Image_cont_p{
+    height: 100%;
+    width: 28%;
+}
+
+.Right_cont_p{
+    margin-left: 2%;
+    height: 100%;
+    width: 45%;
+    color: aliceblue;
+}
+.Tmc{
+    min-height:  707px;
+    background: sienna;
+    width: 97%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+.Podval{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+    background: #6b330a;
+}
+.Podwal_info{
+    margin-top: 1.6%;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: large;
+}
+.Shop_case{
+    min-height: 525px;
+    background: sienna;
+    width: 50%;
+    margin-top: 4.5%;
+    margin-left: 25%;
+    margin-right: 1.5%;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+.Shop_case_info_cont{
+    height: 25px;
+    width: 100%;
+    background: #6b330a;
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+}
+.Shop_case_info{
+    width: 33%;
+    height: 100%;
+    border= "2";
+}
+
+
+
+
+
+

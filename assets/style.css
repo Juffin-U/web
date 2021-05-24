@@ -1,0 +1,262 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333;
+    overflow-x: hidden;
+    font-weight: 400;
+    background-color: #eeeeee;
+}
+
+div {
+    display: block;
+}
+
+.sign-in {
+    background-color: #e75348;
+}
+
+.wrapper {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.sign-in-page {
+    float: left;
+    width: 100%;
+    padding: 100px 0 20px 0;
+}
+
+.signin-popup {
+    width: 870px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.signin-pop {
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    border-radius: 6px;
+}
+
+.row {
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+}
+
+.col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+/*------------------------logo----------------------------------*/
+.cmp-info {
+    float: left;
+    width: 100%;
+    padding: 70px 5px 92px 5px;
+}
+
+.cm-logo {
+    float: left;
+    width: 100%;
+    padding-left: 45px;
+    margin-bottom: 120px;
+}
+
+.cmp-info > img {
+    width: 100%;
+    padding-left: 10px;
+}
+
+img {
+    float: left;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.cm-logo > p {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    float: left;
+    width: 100%;
+}
+
+/*----------------------login-----------------------------*/
+.login-sec {
+    float: left;
+    width: 100%;
+    padding: 30px 0;
+    position: relative;
+}
+
+.row1 {
+    flex-wrap: wrap;
+    margin-right: 150px;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+.sign-control {
+    float: left;
+    width: 80%;
+    text-align: right;
+    padding-right: 0px;
+    margin-bottom: 0px;
+}
+
+.sign-control li {
+    display: inline-block;
+    margin-right: -5px;
+}
+
+
+.sign-control li.current a {
+    background-color: #e44d3a;
+    color: #fff;
+}
+
+.sign-control li.slogin a {
+    background-color: #e44d3a;
+    color: #fff;
+}
+
+.sign-control li a {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #e5e5e5;
+    padding: 7px 10px;
+    display: inline-block;
+    -webkit-border-radius: 4px 0 0 4px;
+    -moz-border-radius: 4px 0 0 4px;
+    -ms-border-radius: 4px 0 0 4px;
+    -o-border-radius: 4px 0 0 4px;
+    border-radius: 4px 0 0 4px;
+}
+
+.sign-control li:last-child a {
+    -webkit-border-radius: 0 4px 4px 0;
+    -moz-border-radius: 0 4px 4px 0;
+    -ms-border-radius: 0 4px 4px 0;
+    -o-border-radius: 0 4px 4px 0;
+    border-radius: 0 4px 4px 0;
+}
+
+.sign_in_sec.current {
+    display: block;
+}
+
+.sign_in_sec {
+    float: left;
+    width: 100%;
+    padding-right: 75px;
+    padding-left: 60px;
+    display: none;
+}
+
+.sign_in_sec h3 {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.sign_in_sec form {
+    float: left;
+    width: 100%;
+
+}
+
+.no-pdd {
+    padding: 0;
+}
+
+.col-lg-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.sn-field {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.sign_in_sec form input, .sign_in_sec form select {
+    width: 100%;
+    padding: 0 0px 0 5px;
+    color: #b2b2b2;
+    font-size: 14px;
+    border: 1px solid #e5e5e5;
+}
+
+.sign_in_sec form input {
+    height: 40px;
+}
+
+.no-pdd {
+    padding: 0;
+}
+
+b {
+    font-weight: bold;
+}
+
+element.style {
+    color: red;
+}
+
+p {
+    font-size: 14px;
+    line-height: 26px;
+    color: #666666;
+}
+
+.sign_in_sec form button {
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #e44d3a;
+    padding: 12px 27px;
+    border: 0;
+    font-weight: 500;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    border-radius: 6px;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+  //  rit: ;
+  //  */: ;
+}
